@@ -33,3 +33,36 @@ ls
 nano helloworld.robot
 robot helloworld.robothelloworld.robothelloworld.robot
 helloworld.robot;sdklfa;sdfj;sadlfjk
+ls
+robot helloworld.robot
+ls
+git status
+ls
+git init
+git add README.md
+ls
+git commit -m "first commit"
+git config --global user.email "rajthilak.sitm@gmail.com"
+git config --global user.name "grthilak"
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/grthilak/mspoctest2.git
+git push -u origin main
+ls
+import subprocess
+def execute_cmd(cmd):
+execute_cmd("df -h")
+execute_cmd("ls -l")
+execute_cmd("git add .")
+execute_cmd('git commit -am "updated reports"')
+execute_cmd("git push https://grthilak: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@github.com/grthilak/mspoctest1.git")
+clear
+ls
+nano git_push.py
+fg
+python3 git_push.py
+ls
+clear
+processtest.robot
