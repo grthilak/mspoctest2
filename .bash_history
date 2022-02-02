@@ -74,3 +74,12 @@ ls
 systemctl status jenkins
 apt install jenkins
 ufw allow 8080
+ls
+cat git_push.py
+nano processtest.robot
+robot processtest.robot
+python git_push.py
+python3 git_push.py
+ls
+nano processtest.robot
+ls
