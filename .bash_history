@@ -66,3 +66,11 @@ python3 git_push.py
 ls
 clear
 processtest.robot
+nano processtest.robot
+ls
+robot processtest.robot
+nano processtest.robot
+ls
+systemctl status jenkins
+apt install jenkins
+ufw allow 8080
